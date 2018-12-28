@@ -8,7 +8,10 @@ function myFunction() { // Hoisted (function declaration)
     str += 'abc'.indexOf('b');
     str += 'abc'.indexOf('x');
 
-    str += getPersons([2, -5, 137])
+    //str += getPersons([2, -5, 137])
+    document.write("doc.write1");
+
+    //alert('Hello W.');
 
     return str;
 }
